@@ -1,0 +1,13 @@
+fetch_schema:
+  description: >
+    Extract all table names and their columns from the connected SQLite database.
+  expected_output: >
+    A formatted schema including:
+    - Table names
+    - Columns and data types for each table
+
+generate_sql:
+  description: >
+    Given a user question and the schema, produce a SQL query that can answer the user's question.
+  expected_output: >
+    A single SQL query (no explanation or extra output)

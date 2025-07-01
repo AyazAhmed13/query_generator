@@ -1,0 +1,19 @@
+# Core LLM and LangChain
+langchain>=0.1.14
+langchain-community>=0.0.33
+crewai>=0.22.2
+
+# Local LLM via Ollama
+ollama>=0.1.9
+
+# YAML parsing
+pyyaml>=6.0
+
+# Gradio interface
+gradio>=4.20.0
+
+# SQLite (standard lib, included in Python)
+# No need to install sqlite3 separately
+
+# Optional for dotenv (only if you use .env)
+python-dotenv>=1.0.1
