@@ -10,7 +10,7 @@ headers = {
     "Content-Type": "application/json"
 }
 data = {
-    "model": "mistralai/mistral-7b-instruct:free",
+    "model": "deepseek/deepseek-r1-distill-llama-70b:free",
     "messages": [{"role": "user", "content": "Hello! What is 2 + 2?"}]
 }
 r = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=data)
